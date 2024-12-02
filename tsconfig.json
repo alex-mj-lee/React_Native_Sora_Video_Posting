@@ -3,15 +3,28 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "app/(auth)/sing-in.jsx",
+    "app/(auth)/sign-up.jsx",
+    "app/(auth)/_layout.jsx",
+    "app/(tabs)/_layout.jsx",
+    "app/(tabs)/bookmark.jsx",
+    "app/(tabs)/create.jsx",
+    "app/(tabs)/home.jsx",
+    "app/(tabs)/profile.jsx",
+    "app/search/[query].jsx",
+    "app/_layout.jsx",
+    "app/index.jsx",
+    "app/profile.jsx",
+    "constants/Colors.js",
+    "constants/icons.js",
+    "constants/index.js",
+    "constants/images.js",
+    "constants/Colors.js"
   ]
 }
